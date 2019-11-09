@@ -15,7 +15,7 @@ const header = () => {
   const h1 = document.createElement("h1");
   const temp = document.createElement("span");
 
-  date.textContent = "SMARCH 28, 2019";
+  date.textContent = "MARCH 28, 2019";
   h1.textContent = "Lambda Times";
   temp.textContent = "98°";
 
