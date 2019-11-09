@@ -10,25 +10,25 @@
 // And add it to the DOM in the .header-container component
 
 const header = () => {
-    const header = document.createElement('div');
-        const date = document.createElement('span');
-        const h1 = document.createElement('h1');
-        const temp = document.createElement('span');
+  const header = document.createElement("div");
+  const date = document.createElement("span");
+  const h1 = document.createElement("h1");
+  const temp = document.createElement("span");
 
-    date.textContent = 'SMARCH 28, 2019';
-    h1.textContent = 'Lambda Times';
-    temp.textContent = '98°';
+  date.textContent = "SMARCH 28, 2019";
+  h1.textContent = "Lambda Times";
+  temp.textContent = "98°";
 
-    header.classList.add('header');
-    date.classList.add('date');
-    temp.classList.add('temp');
+  header.classList.add("header");
+  date.classList.add("date");
+  temp.classList.add("temp");
 
-    header.appendChild(date);
-    header.appendChild(h1);
-    header.appendChild(temp);
+  header.appendChild(date);
+  header.appendChild(h1);
+  header.appendChild(temp);
 
-    return header;
-}
+  return header;
+};
 
-const headerContainer = document.querySelector('.header-container');
+const headerContainer = document.querySelector(".header-container");
 headerContainer.appendChild(header());
