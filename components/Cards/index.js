@@ -18,7 +18,7 @@
 //
 // Create a card for each of the articles and add the card to the DOM.
 
-const newCard = article => {
+const newCard = (article) => {
   const card = document.createElement("div");
   const headline = document.createElement("div");
   const authorContainer = document.createElement("div");
